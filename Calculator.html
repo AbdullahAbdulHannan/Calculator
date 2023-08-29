@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculator(TASK 4)</title>
+</head>
+<body>
+    <div class="scn">
+        <input type="text" name="screen" onclick="display(a)" disabled placeholder="0" id="scr">
+    </div>
+    </div><br>
+    <div style="display: block;" class="btnDiv">
+        <br><br>
+        <button onclick="display('%')" id="sev">%</button>
+        <button onclick="cE()" id="sev">CE</button>
+        <button onclick="clearScreen()" id="sev">C</button>
+        <button onclick="clearScreen()" id="sev">del</button><br>
+        <button onclick="reciprocal()" id="sev">1/x</button>
+        <button onclick="square()" id="sev" class="resp">x^2</button>
+        <button onclick="sqrt()" id="sev" style="padding-top: 2%;padding-bottom: 3%;">✓x</button>
+        <button onclick="display('/')" id="sev">÷</button><br>
+        <button onclick="display('7')" id="sev">7</button>
+        <button onclick="display('8')" id="sev">8</button>
+        <button onclick="display('9')" id="sev">9</button>
+        <button onclick="display('*')">x</button><br>
+        <button onclick="display('4')" id="sev">4</button>
+        <button onclick="display('5')" id="sev">5</button>
+        <button onclick="display('6')" id="sev">6</button>
+        <button onclick="display('-')" id="sev">-</button><br>
+        <button onclick="display('1')" id="sev">1</button>
+        <button onclick="display('2')" id="sev">2</button>
+        <button onclick="display('3')" id="sev">3</button>
+        <button onclick="display('+')">+</button><br>
+        <button onclick="changeSign()" id="sev">+/-</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="calculate()" class="answer">=</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

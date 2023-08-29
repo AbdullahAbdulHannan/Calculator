@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+#scr {
+    outline: none;
+    border:1px solid aliceblue;
+    height: 150px;
+    width: 67%;
+    margin-top: 2%;
+    margin-left: 12%;
+    margin-right: 20%;
+    display: flex-end;
+    font-size: 30px;
+    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+}
+#scr:active{
+border: none;
+}
+.value {
+    width: 125px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btnDiv {
+    margin-left: 12%;
+}
+
+button {
+    outline: none;
+    background-color: rgb(50, 48, 46);
+    border: 2px solid rgb(74, 73, 70);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 8%;
+    padding-right: 10%;
+    height: 50px;
+    margin: 0.1%;
+    width: 1%;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+.answer,
+.answer:hover {
+    background-color: rgb(245, 90, 7) !important;
+}
